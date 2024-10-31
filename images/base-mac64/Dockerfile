@@ -21,7 +21,7 @@ RUN mkdir -p /opt/osxcross && \
     rm -rf osxcross-master master.tar.gz
 
 # Copy MacOS SDK
-COPY sdk/MacOSX11.3.sdk.tar.xz /opt/osxcross/tarballs/
+COPY sdk/MacOSX.sdk.tar.xz /opt/osxcross/tarballs/
 
 # Build OSXCross
 RUN cd /opt/osxcross && \
