@@ -1,8 +1,6 @@
 name: Test Full Build
 on:
-  pull_request:
-    branches:
-      - nonexistent
+  push:
     paths-ignore:
       - '**.md'
       - 'LICENSE'
@@ -17,20 +15,17 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        target: [win32,win64,winarm64]
-        variant: [gpl-shared,gpl-shared 7.1]
-        quickbuild: [1]
         include:
-          - target: linux64
+          - target: mac64
             variant: gpl
             quickbuild: ''
-          - target: linux64
+          - target: mac64
             variant: gpl 7.1
             quickbuild: ''
-          - target: linuxarm64
+          - target: macarm64
             variant: gpl
             quickbuild: ''
-          - target: linuxarm64
+          - target: macarm64
             variant: gpl 7.1
             quickbuild: ''
     steps:

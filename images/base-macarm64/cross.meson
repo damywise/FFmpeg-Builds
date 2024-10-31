@@ -1,0 +1,12 @@
+[binaries]
+c = 'aarch64-apple-darwin-clang'
+cpp = 'aarch64-apple-darwin-clang++'
+ar = 'aarch64-apple-darwin-ar'
+strip = 'aarch64-apple-darwin-strip'
+pkgconfig = 'pkg-config'
+
+[host_machine]
+system = 'darwin'
+cpu_family = 'aarch64'
+cpu = 'arm64'
+endian = 'little' 

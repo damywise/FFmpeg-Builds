@@ -1,7 +1,7 @@
 # FFmpeg Static Auto-Builds
 
 
-This repository provides static Windows (x86 and x86_64) and Linux (x86_64, arm64) Builds of [FFmpeg master](https://github.com/FFmpeg/FFmpeg) and [latest release branch](https://github.com/FFmpeg/FFmpeg/tree/release/6.1) **with some patches necessary for smooth integration with [yt-dlp](https://github.com/yt-dlp/yt-dlp)**
+This repository provides static Windows (x86, x86_64, and ARM64), Linux (x86_64, ARM64), and macOS (x86_64, ARM64) Builds of [FFmpeg master](https://github.com/FFmpeg/FFmpeg) and [latest release branch](https://github.com/FFmpeg/FFmpeg/tree/release/6.1) **with some patches necessary for smooth integration with [yt-dlp](https://github.com/yt-dlp/yt-dlp)**
 
 **Note**: The builds provided are only meant to be used with yt-dlp and any unrelated issues/patches will be rejected
 
@@ -13,6 +13,8 @@ This repository provides static Windows (x86 and x86_64) and Linux (x86_64, arm6
 [![Windows x64 GPL master](https://img.shields.io/badge/-Windows_x64-blue.svg?style=for-the-badge&logo=windows)](https://github.com/yt-dlp/FFmpeg-Builds/releases/download/latest/ffmpeg-master-latest-win64-gpl.zip "Windows x64 GPL master")
 [![Windows x86 GPL master](https://img.shields.io/badge/-Windows_x86-9cf.svg?style=for-the-badge&logo=windows)](https://github.com/yt-dlp/FFmpeg-Builds/releases/download/latest/ffmpeg-master-latest-win32-gpl.zip "Windows x86 GPL master")
 [![Windows ARM64 GPL master](https://img.shields.io/badge/-Windows_arm64-lightblue.svg?style=for-the-badge&logo=windows)](https://github.com/yt-dlp/FFmpeg-Builds/releases/download/latest/ffmpeg-master-latest-winarm64-gpl.zip "Windows ARM64 GPL master")
+[![macOS x64 GPL master](https://img.shields.io/badge/-macOS_x64-silver.svg?style=for-the-badge&logo=apple)](https://github.com/yt-dlp/FFmpeg-Builds/releases/download/latest/ffmpeg-master-latest-mac64-gpl.tar.xz "macOS x64 GPL master")
+[![macOS ARM64 GPL master](https://img.shields.io/badge/-macOS_ARM64-lightgrey.svg?style=for-the-badge&logo=apple)](https://github.com/yt-dlp/FFmpeg-Builds/releases/download/latest/ffmpeg-master-latest-macarm64-gpl.tar.xz "macOS ARM64 GPL master")
 [![Other variants](https://img.shields.io/badge/-Other-grey.svg?style=for-the-badge)](https://github.com/yt-dlp/FFmpeg-Builds/wiki/Latest "All variants")
 [![Other versions](https://img.shields.io/badge/-Old_Versions-lightgrey.svg?style=for-the-badge)](https://github.com/yt-dlp/FFmpeg-Builds/releases "All releases")
 
